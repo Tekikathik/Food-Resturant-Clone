@@ -1,0 +1,218 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 100px;
+   background-repeat: no-repeat;
+    background-size: 1600px 1100px;
+    background-color: black;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.nav .logo h1{
+    color: lawngreen;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.nav .logo b{
+    color: white;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.sigin{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.sigup{
+    background: transparent;
+    border: none;
+    color: white;
+}
+:hover.sigup{
+    background-color:greenyellow;
+    color:black;
+    border: none;
+    border-radius: 5px;
+}
+:hover.sigin{
+    background-color: greenyellow;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+.content-left{
+    display: block;
+    float: right;
+    margin-top: 120px;
+    margin-right: 40px;
+}
+.content-left h1{
+    color: white;
+    font-size: 50px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    background-color:green;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+div input{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.image{
+    display: block;
+    width: 100%;
+     margin-left: 70px;
+}
+.content .image{
+    width: 500px ;
+    height: auto;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.black_background{
+    background-color: black;
+    background-size: 1600px 1100px;
+}
+.grid .karthik {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1519px;
+    height: 800px;
+    z-index: -1;
+    opacity: 0.4;
+}
+.top {
+    margin-top: 150px;
+    top: 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+.items .Non-veg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+}
+.items .Non-veg{
+    border-radius: 150px 150px 20px 20px;
+    background-color: greenyellow;
+    width: 303px;
+    border: 2px solid greenyellow;
+    margin: 70px;
+}
+.items .Non-veg p{
+    font-size: x-large;
+    text-align: center;
+}
+  
+.items .Non-veg .item-name{
+    display: flex;
+    margin: 10px;
+
+}
+.items .Non-veg .item-name p{
+    padding-left: 40px;
+
+}
+.Order{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 40px;
+    width: 200px;
+    text-align: center;
+    float: right;
+}
+.items {
+    display: flex;
+}
+.footer_items p {
+    font-size: larger;
+    width: 450px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer_items {
+    display: flex;
+    margin: 100px;
+}
+.Ourmenu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.contact_us{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+footer img{
+    width: 1519px;
+    height: 500px;
+    margin-left:0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+footer h1{
+    color: greenyellow;
+    padding-top: 90px;
+}
+footer h2{
+    color: greenyellow;
+}
+footer ul{
+    font-size: large;
+    padding-top: 10px;
+    color: rgb(252, 252, 252);
+}
+footer i{
+    margin-top:30px ;
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: 35px;
+}   
+:hover.Non-veg {
+    opacity: 0.6;
+}
